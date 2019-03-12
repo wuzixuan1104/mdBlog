@@ -1,0 +1,10 @@
+.DS_Store
+sftp-config*
+
+**/npm-debug.log
+**/node_modules/*
+**/package-lock.json
+
+/*.html
+/*.xml
+/robots.txt
