@@ -67,10 +67,17 @@ try {
  * ------------------------------------------------------ */
 
   // 分類
+  // Categories::create([
+  //   Category::create('001_首頁', 'index', '首頁', 'icon-01', 'index.php', true),
+  //   Category::create('002_開發', 'Dev',   '開發', 'icon-02'),
+  //   Category::create('003_美食', 'Food',  '美食', 'icon-03'),
+  // ]);
+
   Categories::create([
-    Category::create('001_首頁', 'index', '首頁', 'icon-01', 'index.php', true),
-    Category::create('002_開發', 'Dev',   '開發', 'icon-02'),
-    Category::create('003_美食', 'Food',  '美食', 'icon-03'),
+    Category::create('001_網站首頁', 'index', '網站首頁', 'icon-home3', 'index.php', true),
+    Category::create('002_開發心得', 'Dev',   '開發心得', 'icon-tools'),
+    Category::create('003_生活點滴', 'Life',  '生活點滴', 'icon-file-text2'),
+    Category::create('004_成就紀錄', 'Accomplish',  '成就紀錄', 'icon-medal'),
   ]);
 
   // 寫 article html 檔案
